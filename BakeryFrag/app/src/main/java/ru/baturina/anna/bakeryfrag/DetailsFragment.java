@@ -35,6 +35,8 @@ public class DetailsFragment extends Fragment {
         super.onStart();
 
         View view = getView();
+
+
         if (view != null) {
             TextView title = (TextView) view.findViewById(R.id.textTitle);
             TextView decription = (TextView) view.findViewById(R.id.textDescription);

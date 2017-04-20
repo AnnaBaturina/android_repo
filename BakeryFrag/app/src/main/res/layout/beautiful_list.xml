@@ -7,7 +7,7 @@
     android:padding="@dimen/activity_vert_marg"
     android:textColor="@color/colorCompanyName"
     android:textSize="20sp"
-    android:textAppearance="?android:attr/textAppearanceMedium"
+    
     android:background="@color/colorBackground"
     >
 

@@ -30,10 +30,10 @@ public class FragmentListActivity extends AppCompatActivity implements ProductLi
             fragmentTransaction.replace(R.id.detailsFragment, detailsFragment);
             fragmentTransaction.commit(); // надувание в контейнере
         } else {
-            Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
-            intent.putExtra(DetailsActivity.PRODUCT_ID, id);
-            startActivity(intent);
-        }
+        Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+        intent.putExtra(DetailsActivity.PRODUCT_ID, id);
+        startActivity(intent);
+    }
 
     }
 }
