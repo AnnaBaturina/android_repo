@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 public class DetailsActivity extends AppCompatActivity {
 
-    public static final  String WORKOUT_ID = "id";
+    public static final  String PRODUCT_ID = "id";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,7 +13,7 @@ public class DetailsActivity extends AppCompatActivity {
         setContentView(R.layout.content_details);
 
         DetailsFragment detailsFragment = (DetailsFragment) getSupportFragmentManager().findFragmentById(R.id.detail_frag);
-        detailsFragment.setWorkoutID(getIntent().getIntExtra(WORKOUT_ID,0));
+        detailsFragment.setProductID(getIntent().getIntExtra(PRODUCT_ID, 1));
 
     }
 }

@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity implements WorkoutListFragment.WorkoutListener {
+public class FragmentListActivity extends AppCompatActivity implements ProductListFragment.WorkoutListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,15 +25,17 @@ public class MainActivity extends AppCompatActivity implements WorkoutListFragme
         if (fragmentContainer !=null) {
 
             DetailsFragment detailsFragment = new DetailsFragment();
-            detailsFragment.setWorkoutID(id);
+            detailsFragment.setProductID(id);
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.detailsFragment, detailsFragment);
             fragmentTransaction.commit(); // надувание в контейнере
         } else {
             Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
-            intent.putExtra(DetailsActivity.WORKOUT_ID, id);
+            intent.putExtra(DetailsActivity.PRODUCT_ID, id);
             startActivity(intent);
         }
 
     }
 }
+
+

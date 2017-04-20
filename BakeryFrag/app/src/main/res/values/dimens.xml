@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vert_marg">16dp</dimen>
+    <dimen name="activity_hor_marg">16dp</dimen>
+    <dimen name="image_height">150dp</dimen>
+
+</resources>

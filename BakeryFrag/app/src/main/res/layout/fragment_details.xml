@@ -1,27 +1,46 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vert_marg"
+    android:paddingLeft="@dimen/activity_hor_marg"
+    android:paddingRight="@dimen/activity_hor_marg"
+    android:paddingTop="@dimen/activity_vert_marg"
+    android:background="@color/colorBackground">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context="ru.baturina.anna.bakeryfrag.DetailsFragment">
 
+    <ImageView
+        android:id="@+id/imageProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/image_height"
+        android:scaleType="fitCenter"
+        />
 
     <TextView
         android:id="@+id/textTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorCompanyName"
         />
 
     <TextView
         android:id="@+id/textDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/colorCompanyName"
         />
 
-    <ImageView
-        android:id="@+id/imageWorkout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
+
+
 
 </LinearLayout>
+</ScrollView>
