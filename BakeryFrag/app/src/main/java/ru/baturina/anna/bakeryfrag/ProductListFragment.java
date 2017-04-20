@@ -23,33 +23,39 @@ public class ProductListFragment extends ListFragment {
         void onItemClicked(int id);
     }
 
+    public static final String BAKED = "baked";
+    public static final String CONFECTIONERY = "confectionery";
+    public static final String CHOCOLATE = "chocolate";
+    public static final String ADDRESS = "address";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        //Массив имен
 
-        if ((TopActivity.product).equals("baked")) {
+        if ((TopActivity.product).equals(BAKED)) {
+
 //            String[] names = new String[Product.breads.length];
 //            for (int i = 0; i < names.length; i++) {
 //                names[i] = Product.breads[i].getName();
 //           }
+//            // если оставлять имена в String харкодом в Product
+
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, getStringArray(Product.breads));
             setListAdapter(adapter);
         }
 
-        if ((TopActivity.product).equals("confectionery")) {
+        if ((TopActivity.product).equals(CONFECTIONERY)) {
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, getStringArray(Product.confects));
             setListAdapter(adapter);
         }
 
-        if ((TopActivity.product).equals("chocolate")) {
+        if ((TopActivity.product).equals(CHOCOLATE)) {
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, getStringArray(Product.chocolates));
             setListAdapter(adapter);
 
-        } else if ((TopActivity.product).equals("address")) {
+        } else if ((TopActivity.product).equals(ADDRESS)) {
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, getStringArray(Product.addresses));
             setListAdapter(adapter);
         }
@@ -74,7 +80,7 @@ public class ProductListFragment extends ListFragment {
     }
 
 
-
+//получить массив имен
     private String[] getStringArray(Product[] products) {
         int count = products.length;
         String[] array = new String[count];

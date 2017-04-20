@@ -18,8 +18,5 @@ public class DetailsActivity extends AppCompatActivity {
         DetailsFragment detailsFragment = (DetailsFragment) getSupportFragmentManager().findFragmentById(R.id.detail_frag);
         detailsFragment.setProductID(getIntent().getIntExtra(PRODUCT_ID, 1));
 
-
-
-
     }
 }
