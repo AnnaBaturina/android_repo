@@ -36,5 +36,6 @@
     <string name="addr1short">Булочная на Пятницкой</string>
     <string name="addr2">Проспект Мира 118 \n тел.: +7 (495) 644 40 45</string>
     <string name="addr2short">Булочная на проспекте Мира</string>
+    <string name="addr3short">Булочная на Арбате</string>
     <string name="addr3">Скоро открытие</string>
 </resources>

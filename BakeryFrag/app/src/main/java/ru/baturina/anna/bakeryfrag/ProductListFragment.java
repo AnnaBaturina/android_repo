@@ -13,13 +13,13 @@ import android.widget.ListView;
 
 public class ProductListFragment extends ListFragment {
 
-    private WorkoutListener listener;
+    private ProductListener listener;
 
     public ProductListFragment() {
         // Required empty public constructor
     }
 
-    public  interface WorkoutListener{
+    public interface ProductListener {
         void onItemClicked(int id);
     }
 
@@ -31,50 +31,28 @@ public class ProductListFragment extends ListFragment {
 
         //Массив имен
 
-        if((TopActivity.product).equals("baked")) {
-            String[] names = new String[Product.breads.length];
-            for (int i = 0; i < names.length; i++) {
-                names[i] = Product.breads[i].getName();
-            }
-
-
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, names);
+        if ((TopActivity.product).equals("baked")) {
+//            String[] names = new String[Product.breads.length];
+//            for (int i = 0; i < names.length; i++) {
+//                names[i] = Product.breads[i].getName();
+//           }
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, getStringArray(Product.breads));
             setListAdapter(adapter);
         }
 
-        if((TopActivity.product).equals("confectionery")) {
-            String[] names = new String[Product.confects.length];
-            for (int i = 0; i < names.length; i++) {
-                names[i] = Product.confects[i].getName();
-            }
-
-
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, names);
+        if ((TopActivity.product).equals("confectionery")) {
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, getStringArray(Product.confects));
             setListAdapter(adapter);
         }
 
-        if((TopActivity.product).equals("chocolate")) {
-            String[] names = new String[Product.chocolates.length];
-            for (int i = 0; i < names.length; i++) {
-                names[i] = Product.chocolates[i].getName();
-            }
-
-
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, names);
+        if ((TopActivity.product).equals("chocolate")) {
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, getStringArray(Product.chocolates));
             setListAdapter(adapter);
-        } else if((TopActivity.product).equals("address")) {
-            String[] names = new String[Product.addresses.length];
-            for (int i = 0; i < names.length; i++) {
-                names[i] = Product.addresses[i].getName();
-            }
 
-
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, names);
+        } else if ((TopActivity.product).equals("address")) {
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.beautiful_list, getStringArray(Product.addresses));
             setListAdapter(adapter);
         }
-
-
-
 
         return super.onCreateView(inflater, container, savedInstanceState);
     }
@@ -82,7 +60,7 @@ public class ProductListFragment extends ListFragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        listener = (WorkoutListener) context;
+        listener = (ProductListener) context;
     }
 
 
@@ -90,8 +68,20 @@ public class ProductListFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
 
-        if (listener !=null) {
+        if (listener != null) {
             listener.onItemClicked(position);
         }
     }
+
+
+
+    private String[] getStringArray(Product[] products) {
+        int count = products.length;
+        String[] array = new String[count];
+        for (int i = 0; i < count; i++) {
+            array[i] = getResources().getString(products[i].getName());
+        }
+        return array;
+    }
+
 }

@@ -75,7 +75,7 @@ public class DetailsFragment extends Fragment {
                 imageView.setImageResource(product.getImageResourceId());
             }
 
-    }
+   }
 
 }
 

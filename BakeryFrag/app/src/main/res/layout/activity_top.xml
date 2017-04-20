@@ -28,10 +28,11 @@
             android:layout_height="match_parent"
             android:layout_gravity="fill_vertical"
             android:gravity="center"
+
             android:text="@string/companyName"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textStyle="bold"
-            android:textColor="@color/colorCompanyName" />
+            android:textColor="@color/colorCompanyName"
+            android:textStyle="bold" />
 
 
     </RelativeLayout>
@@ -69,6 +70,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="fill_vertical"
                     android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/activity_hor_marg"
                     android:text="@string/bakedBread"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/colorCompanyName" />
@@ -87,6 +89,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/cond"
+
                     android:scaleType="fitCenter"
                     android:src="@drawable/cond2" />
 
@@ -95,6 +98,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="fill_vertical"
                     android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/activity_hor_marg"
                     android:text="@string/cond"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/colorCompanyName" />
@@ -121,6 +125,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="fill_vertical"
                     android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/activity_hor_marg"
                     android:text="@string/choco"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/colorCompanyName" />
@@ -147,6 +152,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="fill_vertical"
                     android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/activity_hor_marg"
                     android:text="@string/Contact"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@color/colorCompanyName" />
