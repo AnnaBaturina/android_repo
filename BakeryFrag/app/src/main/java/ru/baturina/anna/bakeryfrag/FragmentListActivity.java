@@ -15,9 +15,10 @@ public class FragmentListActivity extends AppCompatActivity implements ProductLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-//            onItemClicked(0);  //открытие по умолчанию 1-го элемента списка
-
+        View fragmentContainer = findViewById(R.id.detailsFragment);
+        if (fragmentContainer !=null) {
+            onItemClicked(0);  //открытие по умолчанию 1-го элемента списка
+        }
 
     }
 
@@ -32,7 +33,7 @@ public class FragmentListActivity extends AppCompatActivity implements ProductLi
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.detailsFragment, detailsFragment);
             fragmentTransaction.commit(); // надувание в контейнере
-           
+
         } else {
         Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
         intent.putExtra(DetailsActivity.PRODUCT_ID, id);
