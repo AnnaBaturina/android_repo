@@ -1,5 +1,6 @@
 package ru.baturina.anna.bakeryfrag;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
@@ -14,6 +15,8 @@ public class FragmentListActivity extends AppCompatActivity implements ProductLi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         View fragmentContainer = findViewById(R.id.detailsFragment);
         if (fragmentContainer !=null) {

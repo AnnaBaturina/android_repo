@@ -1,6 +1,7 @@
 package ru.baturina.anna.bakeryfrag;
 
 
+import android.app.ActionBar;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -28,6 +29,7 @@ public class DetailsFragment extends Fragment {
         //контекст возвращает фрагмент активити, в которой он ращмещается
         View rootView = inflater.inflate(R.layout.fragment_details, container, false);
         return rootView;
+
     }
 
     @Override
