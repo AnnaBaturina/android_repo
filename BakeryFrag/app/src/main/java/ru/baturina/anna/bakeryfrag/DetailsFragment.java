@@ -91,24 +91,3 @@ public class DetailsFragment extends Fragment {
 
 
 
-//            if((TopActivity.product).equals("baked")){
-//            ArrayAdapter<Product> listAdapter=new ArrayAdapter<>(this,R.layout.beautiful_list,Product.breads);
-//        listProducts.setAdapter(listAdapter);
-//        }
-//
-//        if((TopActivity.product).equals("confect")){
-//        ArrayAdapter<Product> listAdapter=new ArrayAdapter<>(this,R.layout.beautiful_list,Product.confects);
-//        listProducts.setAdapter(listAdapter);
-//        }
-//
-//        if((TopActivity.product).equals("chocolate")){
-//        ArrayAdapter<Product> listAdapter=new ArrayAdapter<>(this,R.layout.beautiful_list,Product.chocolates);
-//        listProducts.setAdapter(listAdapter);
-//        }
-//
-//        if((TopActivity.product).equals("address")){
-//        ArrayAdapter<Product> listAdapter=new ArrayAdapter<>(this,R.layout.beautiful_list,Product.addresses);
-//        listProducts.setAdapter(listAdapter);
-//        }
-//
-//
