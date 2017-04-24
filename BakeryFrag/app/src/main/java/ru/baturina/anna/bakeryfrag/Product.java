@@ -18,23 +18,6 @@ public class Product {
         this.imageResourceId = imageResourceId;
     }
 
-    public int getName() {
-        return name;
-    }
-
-    public int getDescription() {
-        return description;
-    }
-
-    public int getImageResourceId() {
-        return imageResourceId;
-    }
-
-//    @Override
-//    public String toString() {
-//        return this.name;
-//    }
-
     public static final Product[] breads = {
             (new Product(R.string.bread, R.string.breaddescr, R.drawable.frbread)),
             (new Product(R.string.cake, R.string.cakedescr, R.drawable.frcake)),
@@ -63,6 +46,23 @@ public class Product {
             (new Product(R.string.addr3short, R.string.addr3, R.drawable.addr3)),
     }
             ;
+
+    public int getName() {
+        return name;
+    }
+
+    public int getDescription() {
+        return description;
+    }
+
+    public int getImageResourceId() {
+        return imageResourceId;
+    }
+
+//    @Override
+//    public String toString() {
+//        return this.name;
+//    }
 
 
 }
