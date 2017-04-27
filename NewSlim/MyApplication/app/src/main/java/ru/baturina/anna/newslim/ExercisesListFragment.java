@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import static ru.baturina.anna.newslim.DetailsActivity.EXERCISE_ID;
+
 public class ExercisesListFragment extends ListFragment {
 
     private ExerciseListener listener;
@@ -18,6 +20,7 @@ public class ExercisesListFragment extends ListFragment {
     public interface ExerciseListener {
         void onItemClicked(int id);
     }
+
 
 
     @Override
@@ -42,10 +45,13 @@ public class ExercisesListFragment extends ListFragment {
         return array;
     }
 
+
+
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
         listener = (ExerciseListener) context;
+
     }
 
     @Override
@@ -53,6 +59,7 @@ public class ExercisesListFragment extends ListFragment {
         super.onListItemClick(l, v, position, id);
     if (listener !=null) {
         listener.onItemClicked(position);
+
     }
     }
 
