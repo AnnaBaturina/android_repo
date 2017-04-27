@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements ExercisesListFrag
             FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.detailsFragment, detailsFragment);
             fragmentTransaction.commit();
+
         } else {
             Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
             intent.putExtra(DetailsActivity.EXERCISE_ID, id);
