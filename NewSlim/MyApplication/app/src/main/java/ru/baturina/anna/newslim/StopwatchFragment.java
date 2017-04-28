@@ -8,7 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class StopwatchFragment extends Fragment implements View.OnClickListener {
@@ -23,12 +26,13 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
 
     Button buttonStart;
     TextView timeView;
-    TextView instruction1;
+    ImageView mandalaTimer;
     String time;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
 
     }
 
@@ -55,8 +59,12 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
 
         buttonStart = (Button) stopwatch_layout.findViewById(R.id.button_start);
         buttonStart.setOnClickListener(this);
+
+
         runTimer(stopwatch_layout);
         return stopwatch_layout;
+
+
     }
 
 
@@ -64,6 +72,7 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
         super.onResume();
         if (wasRunning) {
             isRunning = true;
+
         }
     }
 
@@ -88,11 +97,12 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
     }
 
 
-
     private void runTimer(View view) {
 
         timeView = (TextView) view.findViewById(R.id.textView);
-
+        mandalaTimer = (ImageView) view.findViewById(R.id.mandalaempty);
+        final Animation animationRotateCenter = AnimationUtils.loadAnimation(
+                view.getContext(), R.anim.rotate_center);
 
         final Handler handler = new Handler();
         handler.post(new Runnable() {
@@ -102,19 +112,21 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
                 int secs = seconds;
 
                 time = String.format("%02d", secs);
-if (secs >0) {
+                if (secs > 0) {
+                    timeView.setText(time);
+                }
 
-    timeView.setText(time);
-
-}
                 if (isRunning) {
+                    mandalaTimer.startAnimation(animationRotateCenter);
                     buttonStart.setTextSize(16);
-                      buttonStart.setText(R.string.holdposition);
-                        seconds--;
+                    buttonStart.setText(R.string.holdposition);
+                    seconds--;
+
                     if (secs == 0) {
+                        mandalaTimer.clearAnimation();
+                        mandalaTimer.setVisibility(View.GONE);
                         isRunning = false;
                         timeView.setText(R.string.great);
-
                         buttonStart.setText(R.string.repeat);
                     }
                 }
