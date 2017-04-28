@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements ExercisesListFrag
         }
 
         //цвет
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.RED));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.rgb(160, 46, 63)));
         getSupportActionBar().setTitle(R.string.exercisesforlist);
     }
 

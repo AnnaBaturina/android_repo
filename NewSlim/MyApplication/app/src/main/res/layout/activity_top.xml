@@ -4,18 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroundnom2"
     tools:context="ru.baturina.anna.newslim.TopActivity">
-
-
-    <ImageView
-        android:id="@+id/title_picture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:background="@null"
-        android:src="@drawable/yoga_siluette_balls"
-
-        />
 
     <Button
         android:id="@+id/begin"
@@ -25,7 +15,8 @@
         android:text="@string/start_training"
         android:layout_centerInParent="true"
         android:textStyle="bold"
-        android:textSize="20sp"
+        android:textSize="24sp"
+        android:textColor="@color/colorTitle"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         />
@@ -33,38 +24,70 @@
 
 
     <ImageView
-        android:id="@+id/mandala1"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:src="@drawable/minimandola"
-        android:layout_alignParentBottom="true"
-        />
-
-    <ImageView
         android:id="@+id/mandala2"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:src="@drawable/minimandola"
-        android:layout_alignParentRight="true"
+        android:src="@drawable/mandala2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/begin"
+        />
+
+
+    <ImageView
+        android:id="@+id/mandala1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/mandala3"
+        android:layout_below="@+id/begin"
+        android:layout_toLeftOf="@+id/mandala2"
         />
 
     <ImageView
         android:id="@+id/mandala3"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:src="@drawable/minimandola"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:src="@drawable/mandala1"
+        android:layout_below="@+id/begin"
+        android:layout_toRightOf="@+id/mandala2"
         />
+
 
     <ImageView
         android:id="@+id/mandala4"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:src="@drawable/minimandola"
+        android:src="@drawable/mandala2"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/begin"
         />
 
 
+    <ImageView
+        android:id="@+id/mandala5"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/mandala1"
+        android:layout_above="@+id/begin"
+        android:layout_toLeftOf="@+id/mandala2"
+        />
+
+    <ImageView
+        android:id="@+id/mandala6"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/mandala3"
+        android:layout_above="@+id/begin"
+        android:layout_toRightOf="@+id/mandala2"
+        />
+
+    <TextView
+        android:id="@+id/copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="@string/copy"
+        android:textColor="@color/colorTitle"
+        android:layout_alignParentBottom="true"/>
 
 
 </RelativeLayout>

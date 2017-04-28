@@ -19,7 +19,7 @@ public class DetailsActivity extends AppCompatActivity {
 ////Actionbar
 
         getSupportActionBar().setTitle(Exercises.exercises[getIntent().getIntExtra(EXERCISE_ID, 0)].getName());
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.RED));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.rgb(160, 46, 63)));
 
 
 

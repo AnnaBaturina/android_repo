@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class TopActivity extends AppCompatActivity implements View.OnClickListener {
@@ -26,10 +25,13 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
         ImageView mandala2 = (ImageView) findViewById(R.id.mandala2);
         ImageView mandala3 = (ImageView) findViewById(R.id.mandala3);
         ImageView mandala4 = (ImageView) findViewById(R.id.mandala4);
+        ImageView mandala5 = (ImageView) findViewById(R.id.mandala5);
+        ImageView mandala6 = (ImageView) findViewById(R.id.mandala6);
+
 
 
         //
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.rgb(5, 150, 10)));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.rgb(160, 46, 63)));
         getSupportActionBar().setTitle(R.string.exercisesforlist);
 
         final Animation animationRotateCenter = AnimationUtils.loadAnimation(
@@ -37,10 +39,11 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
         final Animation animationRotateCenterBackwards = AnimationUtils.loadAnimation(
                 this, R.anim.rotate_center_backwards);
        mandala1.startAnimation(animationRotateCenter);
-       mandala2.startAnimation(animationRotateCenter);
-       mandala3.startAnimation(animationRotateCenterBackwards);
+       mandala2.startAnimation(animationRotateCenterBackwards);
+       mandala3.startAnimation(animationRotateCenter);
        mandala4.startAnimation(animationRotateCenterBackwards);
-
+       mandala5.startAnimation(animationRotateCenter);
+       mandala6.startAnimation(animationRotateCenterBackwards);
 
 
     }

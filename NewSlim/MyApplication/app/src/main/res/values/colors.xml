@@ -3,5 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorMyAppBackGround">#cbe1e2</color>
+    <color name="colorTitle">#c02357</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorTitle2">#fcb76e</color>
+    <color name="colorbg">#167b1a</color>
 </resources>

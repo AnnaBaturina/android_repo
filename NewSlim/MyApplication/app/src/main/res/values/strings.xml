@@ -19,7 +19,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="reset">Reset</string>
     <string name="stop">Stop</string>
-    <string name="start">Start</string>
+    <string name="start">Начать упражнение</string>
+    <string name="repeat">Повторить</string>
     <string name="start_training">Начать тренировку</string>
     <string name="exercisesforlist">Упражнения</string>
+    <string name="copy">2017. Учебный проект Анны Батуриной</string>
+    <string name="holdposition">Удерживайте положение:</string>
+    <string name="great">Отлично!</string>
+    <string name="holspose">Удерживайте положение еще:</string>
 </resources>

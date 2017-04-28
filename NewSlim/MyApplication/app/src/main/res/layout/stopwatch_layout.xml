@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="ru.baturina.anna.newslim.StopwatchFragment">
-
-    <Button
-        android:id="@+id/button_reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/reset" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_reset"
-        android:layout_centerHorizontal="true"
-        android:text=""
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/colorPrimary"
-        />
-
-    <Button
-        android:id="@+id/button_stop"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="5dp"
-        android:layout_alignParentLeft="true"
-        android:text="@string/stop" />
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.baturina.anna.newslim.StopwatchFragment"
+    >
 
     <Button
         android:id="@+id/button_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="5dp"
-        android:layout_alignParentRight="true"
-        android:text="@string/start" />
+        android:text="@string/start"
+        android:textColor="@color/colorTitle"
+        android:textSize="24sp"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/mandalaempty"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/mandala2empty"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_start"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorTitle"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_start"/>
+
+
+
+
+
+
 
 </RelativeLayout>
