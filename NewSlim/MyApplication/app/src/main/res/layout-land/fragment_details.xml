@@ -3,6 +3,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+    android:background="@drawable/backgroundnom2"
 tools:context="ru.baturina.anna.newslim.DetailsFragment">
 
 
@@ -20,7 +21,7 @@ tools:context="ru.baturina.anna.newslim.DetailsFragment">
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_gravity="center"
-
+        android:textColor="@color/colorTitle"
         />
 
     <LinearLayout
@@ -28,21 +29,23 @@ tools:context="ru.baturina.anna.newslim.DetailsFragment">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:weightSum="4"
        >
 
     <TextView
         android:id="@+id/textDescription"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-
+        android:layout_weight="2"
+        android:textColor="@color/colorTitle"
         />
 
     <ImageView
         android:id="@+id/imageExercise"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/image_height"
-        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="top"
         />
 
     </LinearLayout>
@@ -50,7 +53,7 @@ tools:context="ru.baturina.anna.newslim.DetailsFragment">
     <FrameLayout
         android:id="@+id/stopwatch_container"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/stopwatch_height"
+        android:layout_height="wrap_content"
 
         />
 

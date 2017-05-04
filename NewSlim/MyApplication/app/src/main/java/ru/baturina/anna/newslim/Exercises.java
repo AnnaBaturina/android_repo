@@ -16,7 +16,7 @@ public class Exercises {
     }
 
     public static final Exercises [] exercises = {
-            new Exercises(R.string.riverting, R.string.riverting_descr, R.drawable.riveting),
+            new Exercises(R.string.riverting, R.string.riverting_descr, R.drawable.test1),
             new Exercises(R.string.kickback,R.string.kicjback_descr, R.drawable.kikbek),
             new Exercises(R.string.squat, R.string.squat_descr, R.drawable.squat),
             new Exercises(R.string.twists, R.string.twists_descr, R.drawable.twists),

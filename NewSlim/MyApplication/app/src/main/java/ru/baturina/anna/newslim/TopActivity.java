@@ -33,6 +33,8 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
         //
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.rgb(160, 46, 63)));
         getSupportActionBar().setTitle(R.string.exercisesforlist);
+//        getSupportActionBar().hide();
+
 
         final Animation animationRotateCenter = AnimationUtils.loadAnimation(
                 this, R.anim.rotate_center);
@@ -41,8 +43,8 @@ public class TopActivity extends AppCompatActivity implements View.OnClickListen
        mandala1.startAnimation(animationRotateCenter);
        mandala2.startAnimation(animationRotateCenterBackwards);
        mandala3.startAnimation(animationRotateCenter);
-       mandala4.startAnimation(animationRotateCenterBackwards);
-       mandala5.startAnimation(animationRotateCenter);
+       mandala4.startAnimation(animationRotateCenter);
+       mandala5.startAnimation(animationRotateCenterBackwards);
        mandala6.startAnimation(animationRotateCenterBackwards);
 
 

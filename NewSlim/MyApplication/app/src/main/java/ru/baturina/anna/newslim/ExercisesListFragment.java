@@ -28,19 +28,29 @@ public class ExercisesListFragment extends ListFragment {
                              Bundle savedInstanceState) {
 
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), android.R.layout.simple_list_item_1, getStringArray(Exercises.exercises));
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.list_item, getStringArray(Exercises.exercises));
         setListAdapter(adapter);
 
 //вызываем супер-метод OnCreateView
         return super.onCreateView(inflater,container,savedInstanceState);
     }
 
-
+//для списка
     private String[] getStringArray(Exercises[] exercises) {
 
         String[] array = new String[exercises.length];
         for (int i = 0; i < array.length; i++) {
             array[i] = getResources().getString(exercises[i].getName());
+        }
+        return array;
+    }
+
+//для списка с картинками
+    private Integer[] getImageId(Exercises[]exercises) {
+        int count = exercises.length;
+        Integer[] array = new Integer[count];
+        for (int i = 0; i < count; i++) {
+            array[i] = exercises[i].getImageId();
         }
         return array;
     }

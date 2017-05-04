@@ -11,7 +11,7 @@ tools:context="ru.baturina.anna.newslim.DetailsFragment">
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
+    android:background="@drawable/backgroundnom2"
     tools:context="ru.baturina.anna.bakeryfrag.DetailsFragment">
 
 
@@ -21,13 +21,14 @@ tools:context="ru.baturina.anna.newslim.DetailsFragment">
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_gravity="center"
+        android:textColor="@color/colorTitle"
         />
 
     <TextView
         android:id="@+id/textDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:textColor="@color/colorTitle"
         />
 
     <ImageView
@@ -35,6 +36,7 @@ tools:context="ru.baturina.anna.newslim.DetailsFragment">
         android:layout_width="wrap_content"
         android:layout_height="@dimen/image_height"
         android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal"
         />
 
     <FrameLayout

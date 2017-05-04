@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
+    android:background="@drawable/backgroundnom2"
     tools:context="ru.baturina.anna.newslim.MainActivity">
 
     <fragment
@@ -13,7 +14,8 @@
         class="ru.baturina.anna.newslim.ExercisesListFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="3"/>
+        android:layout_weight="3"
+       />
 
     <FrameLayout
         android:id="@+id/detailsFragment"
