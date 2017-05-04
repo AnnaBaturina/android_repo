@@ -22,14 +22,15 @@ public class ExercisesListFragment extends ListFragment {
     }
 
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(inflater.getContext(), R.layout.list_item, getStringArray(Exercises.exercises));
-        setListAdapter(adapter);
+     ExerciseAdapter listAdapter = new ExerciseAdapter(getActivity(), getStringArray(Exercises.exercises), getImageId(Exercises.exercises));
+     setListAdapter(listAdapter);
+
+
 
 //вызываем супер-метод OnCreateView
         return super.onCreateView(inflater,container,savedInstanceState);

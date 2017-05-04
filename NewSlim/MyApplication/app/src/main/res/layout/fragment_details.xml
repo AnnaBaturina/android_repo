@@ -34,7 +34,7 @@ tools:context="ru.baturina.anna.newslim.DetailsFragment">
     <ImageView
         android:id="@+id/imageExercise"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/image_height"
+        android:layout_height="match_parent"
         android:scaleType="fitCenter"
         android:layout_gravity="center_horizontal"
         />
