@@ -15,16 +15,35 @@
     <string name="twisting">Скручивания на мяче</string>
     <string name="twisting_descr">Станьте в упор лежа, при этом ноги закиньте на шведский мяч, так, чтобы ваши голени располагались на нем, а не ступни (А). Подкручивайте мяч ногами под себя, поднимая бедра и ягодицы вверх (В). Поднимайтесь так высоко, как только у вас получится, а затем медленно вернитесь в исходное положение (А). Сделайте столько повторов, сколько сможете.</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- POSES -->
+
+    <string name="first"> Easy pose</string>
+    <string name="second"> Cobra pose</string>
+    <string name="third"> Downward facing dog</string>
+    <string name="fourth"> Boat pose</string>
+    <string name="fifth"> Half pigeon</string>
+    <string name="sixth"> Low lunge</string>
+    <string name="seveth"> Upward bow</string>
+    <string name="eigth"> Crescent lunge</string>
+    <string name="nineth"> Bow pose</string>
+    <string name="tenth"> Warrior pose</string>
+
+    <string name="firstDescr"> Take this pose and hold it (description to be updated).</string>
+
+
+
+    <!-- TIMER -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="reset">Reset</string>
     <string name="stop">Stop</string>
-    <string name="start">Начать упражнение</string>
-    <string name="repeat">Повторить</string>
-    <string name="start_training">Начать тренировку</string>
-    <string name="exercisesforlist">Упражнения</string>
-    <string name="copy">2017. Учебный проект Анны Батуриной</string>
-    <string name="holdposition">Удерживайте положение:</string>
-    <string name="great">Отлично!</string>
-    <string name="holspose">Удерживайте положение еще:</string>
+    <string name="start">START</string>
+    <string name="repeat">REPEAT</string>
+    <string name="holdposition">Hold:</string>
+    <string name="great">Great!</string>
+
+    <!-- TITLE -->
+    <string name="start_training">START YOGA TRAINING</string>
+    <string name="exercisesforlist">Poses</string>
+    <string name="copy">2017 by Anna Baturina</string>
+
 </resources>

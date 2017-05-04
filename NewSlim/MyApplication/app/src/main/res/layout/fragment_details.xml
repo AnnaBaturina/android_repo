@@ -29,6 +29,7 @@ tools:context="ru.baturina.anna.newslim.DetailsFragment">
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/colorTitle"
+        android:layout_marginLeft="@dimen/margin_left"
         />
 
     <ImageView

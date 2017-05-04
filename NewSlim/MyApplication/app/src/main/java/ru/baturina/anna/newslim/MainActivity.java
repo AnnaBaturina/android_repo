@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity implements ExercisesListFrag
     public void onItemClicked(int id) {
         View fragmentContainer = findViewById(R.id.detailsFragment);
         if (fragmentContainer != null) {
+
+            getSupportActionBar().setTitle(Exercises.exercises[id].getName());
+
             //создаем инстанс фрагмента
             DetailsFragment detailsFragment = new DetailsFragment();
             //динамически создаем фрагмент и сетим его поверх существующего:

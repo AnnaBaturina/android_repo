@@ -16,13 +16,16 @@ public class Exercises {
     }
 
     public static final Exercises [] exercises = {
-            new Exercises(R.string.riverting, R.string.riverting_descr, R.drawable.test1),
-            new Exercises(R.string.kickback,R.string.kicjback_descr, R.drawable.kikbek),
-            new Exercises(R.string.squat, R.string.squat_descr, R.drawable.squat),
-            new Exercises(R.string.twists, R.string.twists_descr, R.drawable.twists),
-            new Exercises(R.string.jumping, R.string.jumping_descr, R.drawable.jumping),
-            new Exercises(R.string.boat, R.string.boat_descr, R.drawable.boat),
-            new Exercises(R.string.twisting, R.string.twisting_descr, R.drawable.twisting)
+            new Exercises(R.string.first, R.string.firstDescr, R.drawable.first),
+            new Exercises(R.string.second,R.string.firstDescr, R.drawable.second),
+            new Exercises(R.string.third, R.string.firstDescr, R.drawable.third),
+            new Exercises(R.string.fourth, R.string.firstDescr, R.drawable.fourth),
+            new Exercises(R.string.fifth, R.string.firstDescr, R.drawable.fifth),
+            new Exercises(R.string.sixth, R.string.firstDescr, R.drawable.sixth),
+            new Exercises(R.string.seveth, R.string.firstDescr, R.drawable.seventh),
+            new Exercises(R.string.eigth, R.string.firstDescr, R.drawable.eighth),
+            new Exercises(R.string.nineth, R.string.firstDescr, R.drawable.nineth),
+            new Exercises(R.string.tenth, R.string.firstDescr, R.drawable.tenth),
     };
 
 
