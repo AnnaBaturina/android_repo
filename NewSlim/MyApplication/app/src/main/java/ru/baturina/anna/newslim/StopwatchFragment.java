@@ -69,6 +69,7 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
         buttonSkip.setOnClickListener(this);
 
         timeView = (TextView) stopwatch_layout.findViewById(R.id.textView);
+        timeView.setOnClickListener(this);
         mandalaTimer = (ImageView) stopwatch_layout.findViewById(R.id.mandalaempty);
 
         runTimer(stopwatch_layout);
@@ -94,7 +95,10 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
             case R.id.button_start:
                 seconds = 20;
                 isRunning = true;
+                break;
 
+            case R.id.textView:
+                isRunning = true;
                 break;
 
             case R.id.button_skip:
