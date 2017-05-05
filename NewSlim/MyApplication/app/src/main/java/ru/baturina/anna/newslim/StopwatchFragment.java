@@ -1,10 +1,12 @@
 package ru.baturina.anna.newslim;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,6 +27,7 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
     private boolean wasRunning = false;
 
     Button buttonStart;
+    Button buttonSkip;
     TextView timeView;
     ImageView mandalaTimer;
     String time;
@@ -32,7 +35,6 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
     }
 
@@ -43,6 +45,9 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
         savedInstanceState.putBoolean(WAS_RUNNING, wasRunning);
         super.onSaveInstanceState(savedInstanceState);
     }
+
+
+
 
 
     @Override
@@ -60,6 +65,11 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
         buttonStart = (Button) stopwatch_layout.findViewById(R.id.button_start);
         buttonStart.setOnClickListener(this);
 
+        buttonSkip = (Button) stopwatch_layout.findViewById(R.id.button_skip);
+        buttonSkip.setOnClickListener(this);
+
+        timeView = (TextView) stopwatch_layout.findViewById(R.id.textView);
+        mandalaTimer = (ImageView) stopwatch_layout.findViewById(R.id.mandalaempty);
 
         runTimer(stopwatch_layout);
         return stopwatch_layout;
@@ -78,13 +88,21 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
 
     @Override
     public void onClick(View view) {
+
         switch (view.getId()) {
 
             case R.id.button_start:
                 seconds = 20;
                 isRunning = true;
+
                 break;
 
+            case R.id.button_skip:
+                isRunning = false;
+                Intent intent = new Intent(getActivity(), MainActivity.class);
+                startActivity(intent);
+
+                break;
 
         }
     }
@@ -97,12 +115,10 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
     }
 
 
+
     private void runTimer(View view) {
 
-        timeView = (TextView) view.findViewById(R.id.textView);
-        mandalaTimer = (ImageView) view.findViewById(R.id.mandalaempty);
-        final Animation animationRotateCenter = AnimationUtils.loadAnimation(
-                view.getContext(), R.anim.rotate_center);
+        final Animation animationRotateCenter = AnimationUtils.loadAnimation(view.getContext(), R.anim.rotate_timer);
 
         final Handler handler = new Handler();
         handler.post(new Runnable() {
@@ -112,13 +128,15 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
                 int secs = seconds;
 
                 time = String.format("%02d", secs);
+
                 if (secs > 0) {
                     timeView.setText(time);
                 }
 
                 if (isRunning) {
+
                     mandalaTimer.startAnimation(animationRotateCenter);
-                    buttonStart.setTextSize(16);
+
                     buttonStart.setText(R.string.holdposition);
                     seconds--;
 
@@ -135,5 +153,8 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
             }
         });
 
+
     }
+
+
 }

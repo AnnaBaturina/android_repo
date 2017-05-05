@@ -18,8 +18,8 @@ public class Exercises {
     public static final Exercises [] exercises = {
             new Exercises(R.string.first, R.string.firstDescr, R.drawable.first),
             new Exercises(R.string.second,R.string.firstDescr, R.drawable.second),
-            new Exercises(R.string.third, R.string.firstDescr, R.drawable.third),
-            new Exercises(R.string.fourth, R.string.firstDescr, R.drawable.fourth),
+            new Exercises(R.string.third, R.string.thirdD, R.drawable.third),
+            new Exercises(R.string.fourth, R.string.fourthD, R.drawable.fourth),
             new Exercises(R.string.fifth, R.string.firstDescr, R.drawable.fifth),
             new Exercises(R.string.sixth, R.string.firstDescr, R.drawable.sixth),
             new Exercises(R.string.seveth, R.string.firstDescr, R.drawable.seventh),

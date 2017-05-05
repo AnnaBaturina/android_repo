@@ -46,12 +46,12 @@ public class ExerciseAdapter extends BaseAdapter {
 
         ImageView flagView = (ImageView) myView.findViewById(R.id.img);
         TextView nameView = (TextView) myView.findViewById(R.id.text1);
-//        TextView capitalView = (TextView) myView.findViewById(R.id.capital);
+
 
 
         flagView.setImageResource(imageId[position]);
         nameView.setText(itemname[position]);
-//        capitalView.setText(exercise.getDescription());
+
 
         return myView;
     }

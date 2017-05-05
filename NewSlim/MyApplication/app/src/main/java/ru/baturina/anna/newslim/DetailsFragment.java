@@ -40,11 +40,6 @@ public class DetailsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_details, container, false);
         return rootView;
 
-        // //  поиск элемента через rootView
-        // //  TextView textView = rootView.findViewById(R.)
-        // //можно сразу:
-        // // return inflater.inflate(R.layout.fragment_details, container, false);
-
     }
 
 

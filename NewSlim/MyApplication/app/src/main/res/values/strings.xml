@@ -20,7 +20,9 @@
     <string name="first"> Easy pose</string>
     <string name="second"> Cobra pose</string>
     <string name="third"> Downward facing dog</string>
+    <string name="thirdD">  This asana stretches the shoulders, legs, spine and whole body; builds strength throughout the body, particularly the arms, legs, and feet; relieves fatigue and rejuvenates the body; improves the immune system, digestion and blood flow to the sinuses, and calms the mind and lifts the spirits.</string>
     <string name="fourth"> Boat pose</string>
+    <string name="fourthD"> The body comes into a V-shape, balancing entirely on the buttocks.</string>
     <string name="fifth"> Half pigeon</string>
     <string name="sixth"> Low lunge</string>
     <string name="seveth"> Upward bow</string>
@@ -28,7 +30,7 @@
     <string name="nineth"> Warrior pose</string>
     <string name="tenth"> Bow pose</string>
 
-    <string name="firstDescr"> Take this pose and hold it (description to be updated).</string>
+    <string name="firstDescr"> Asanas are often performed as physical exercise where they are sometimes referred to as "yoga postures" or "yoga positions" (description to be updated).</string>
 
 
 
@@ -43,7 +45,8 @@
 
     <!-- TITLE -->
     <string name="start_training">START YOGA TRAINING</string>
-    <string name="exercisesforlist">Poses</string>
+    <string name="exercisesforlist">Yoga postures</string>
     <string name="copy">2017 by Anna Baturina</string>
+    <string name="skip">Skip</string>
 
 </resources>
