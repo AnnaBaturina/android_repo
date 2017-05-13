@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ДЗ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string-array name="dep_items">
+        <item>Unkown-Unknown</item>
+    	<item>Business-Moscow</item>
+    	<item>Development-Volgograd</item>
+    	<item>Testing-Saratov</item>
+	</string-array>
+
+    <string-array name="empl_items">
+        <item>Иванов-Хороший работник-1</item>
+        <item>Иванова-Собирает марки-0</item>
+        <item>Петров-Передовик производства-2</item>
+        <item>Сидоров-Новый сотрудник-1</item>
+    </string-array>
+
+
+
+</resources>

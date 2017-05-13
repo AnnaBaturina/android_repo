@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]
