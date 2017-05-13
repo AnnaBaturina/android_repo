@@ -284,6 +284,10 @@
         "source": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_delete.png",
+        "source": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\drawable-xhdpi\\ic_delete.png"
+    },
+    {
         "merged": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\abc_ic_cab_done_holo_light.png",
         "source": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-xhdpi\\abc_ic_cab_done_holo_light.png"
     },

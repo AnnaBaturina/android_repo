@@ -30,12 +30,13 @@ public class ActMain extends Activity implements View.OnClickListener{
 		
 
         TextView tvDept = (TextView) findViewById(R.id.tvDept);
-      nrToDel = (EditText) findViewById(R.id.nrtodelete);
         Button btnAdd = (Button) findViewById(R.id.addnewnote);
-Button btnDelete = (Button) findViewById(R.id.deletenote);
-
         btnAdd.setOnClickListener(this);
-btnDelete.setOnClickListener(this);
+
+
+//      nrToDel = (EditText) findViewById(R.id.nrtodelete);
+//Button btnDelete = (Button) findViewById(R.id.deletenote);
+//btnDelete.setOnClickListener(this);
 
         Cursor cr = MyApp.getDB().getReadableCursor(DBEmpl.TableNotes.T_NAME);
 
@@ -70,9 +71,11 @@ btnDelete.setOnClickListener(this);
             Intent intent = new Intent(this, AddNoteActivity.class);
             startActivity(intent);
         }
-        if (v.getId() == R.id.deletenote) {
-            MyApp.getDB().deleteDep(Long.parseLong(nrToDel.getText().toString()));
-        }
+//        if (v.getId() == R.id.deletenote) {
+//
+////            MyApp.getDB().deleteDep(Long.parseLong(nrToDel.getText().toString()));
+//
+//        }
     }
 
 
@@ -93,7 +96,6 @@ btnDelete.setOnClickListener(this);
 
                 Intent intent = new Intent(this, AddNoteActivity.class);
                 startActivity(intent);
-//                MyApp.getDB().addDep("Department 1", "Location 1");
 
                 return true;
             case R.id.action_delete:
@@ -101,10 +103,10 @@ btnDelete.setOnClickListener(this);
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(ActMain.this);
                 builder.setTitle("Важное сообщение!")
-                        .setMessage("Покормите кота!")
-                        .setIcon(R.drawable.ic_action_dontlike)
+                        .setMessage("Удаление пока не работает!")
+                        .setIcon(R.drawable.ic_delete)
                         .setCancelable(true)
-                        .setNegativeButton("ОК, иду на кухню",
+                        .setNegativeButton("Ну ок!",
                                 new DialogInterface.OnClickListener() {
                                     public void onClick(DialogInterface dialog, int id) {
                                         dialog.cancel();

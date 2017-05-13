@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#A02E3F</color>
     <color name="colorPrimaryDark">#A02E3F</color>
+    <color name="textColorPrimary">#167b1a</color>
+    <color name="colorAccent">#FF4081</color>
     <color name="colorTitle">#A02E3F</color>
+    <color name="colorwhite">#ffffff</color>
     <color name="colorTitle2">#A02E3F</color>
     <color name="colorbg">#167b1a</color>
     <color name="colorcent">#f0a76e</color>
-    <color name="colorwhite">#ffffff</color>
-    <color name="textColorPrimary">#167b1a</color>
-    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
-        
-    </style>
 </resources>

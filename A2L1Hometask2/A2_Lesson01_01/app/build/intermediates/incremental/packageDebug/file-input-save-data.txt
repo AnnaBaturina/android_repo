@@ -1,15 +1,17 @@
 #Internal package file, do not edit.
-#Sat May 13 19:28:45 GMT+03:00 2017
+#Sat May 13 20:09:23 GMT+03:00 2017
 2.base=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_
 5.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
 5.set=DEX
 3.base=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_
 6.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\add_note_layout.xml
 2.set=ANDROID_RESOURCE
+10.set=ANDROID_RESOURCE
+10.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_add.png
 4.base=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_
 7.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 7.set=ANDROID_RESOURCE
-count=10
+count=11
 0.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v4\\ic_launcher.png
 5.base=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 8.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\act_main.xml
@@ -17,7 +19,8 @@ count=10
 6.base=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_
 1.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_action_dontlike.png
 9.set=ANDROID_RESOURCE
-9.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_add.png
+9.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_delete.png
+10.base=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_
 1.set=ANDROID_RESOURCE
 7.base=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_
 2.file=C\:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\list_item.xml
