@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Заметки</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">Добавить</string>
+    <string name="delete">Удалить</string>
+
+    <string name="addtitle">Заголовок</string>
+    <string name="addnote">Запись</string>
+    <string name="save">Сохранить</string>
+
+    <string-array name="note_items">
+        <item>01.01.1984 07:20 - Первый день путешествия - Мы стоим у подножья горы. Невоятной красоты виды открываются нашему взору.</item>
+        <item>01.02.1984 15:45 - Начало подъема - Мы начинаем восхождение! </item>
+        <item>01.02.1984 19:20 - Первый ночлег в горах - Разожгли костер, открыли консервы. Надо было брать с собой меньше вещей.</item>
+
+    </string-array>
+
+
+</resources>

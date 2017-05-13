@@ -1,0 +1,732 @@
+[
+    {
+        "outputFile": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 19,
+                    "endOffset": 469
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 426,
+                        "endLine": 18,
+                        "endColumn": 19,
+                        "endOffset": 840
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 474,
+                    "endColumn": 57,
+                    "endOffset": 527
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 532,
+                    "endColumn": 55,
+                    "endOffset": 583
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 588,
+                    "endColumn": 52,
+                    "endOffset": 636
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 52,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 641,
+                    "endColumn": 40,
+                    "endOffset": 677
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 40,
+                        "endOffset": 243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 682,
+                    "endColumn": 42,
+                    "endOffset": 720
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 339,
+                        "endColumn": 42,
+                        "endOffset": 377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 725,
+                    "endColumn": 46,
+                    "endOffset": 767
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 46,
+                        "endOffset": 334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 772,
+                    "endColumn": 44,
+                    "endOffset": 812
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 817,
+                    "endColumn": 42,
+                    "endOffset": 855
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 248,
+                        "endColumn": 42,
+                        "endOffset": 286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 860,
+                    "endColumn": 52,
+                    "endOffset": 908
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 154,
+                        "endColumn": 52,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 913,
+                    "endColumn": 42,
+                    "endOffset": 951
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 382,
+                        "endColumn": 42,
+                        "endOffset": 420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 956,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1242
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1247,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1402
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask2\\A2_Lesson01_01\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 16,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endLine": 12,
+                        "endColumn": 16,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 252,
+                    "endLine": 13,
+                    "endColumn": 19,
+                    "endOffset": 497
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 405,
+                        "endLine": 19,
+                        "endColumn": 19,
+                        "endOffset": 650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 502,
+                    "endColumn": 57,
+                    "endOffset": 555
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 560,
+                    "endColumn": 55,
+                    "endOffset": 611
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 616,
+                    "endColumn": 52,
+                    "endOffset": 664
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 96,
+                        "endColumn": 52,
+                        "endOffset": 144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 669,
+                    "endColumn": 39,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 39,
+                        "endOffset": 91
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 52,
+                    "endOffset": 757
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 52,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 762,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1048
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1053,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1208
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask1\\A2_Lesson01_01\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 16,
+                    "endOffset": 254
+                },
+                "from": {
+                    "file": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endLine": 12,
+                        "endColumn": 16,
+                        "endOffset": 417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 259,
+                    "endColumn": 57,
+                    "endOffset": 312
+                },
+                "from": {
+                    "file": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 317,
+                    "endColumn": 55,
+                    "endOffset": 368
+                },
+                "from": {
+                    "file": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 373,
+                    "endColumn": 52,
+                    "endOffset": 421
+                },
+                "from": {
+                    "file": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 52,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 426,
+                    "endColumn": 46,
+                    "endOffset": 468
+                },
+                "from": {
+                    "file": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 46,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 473,
+                    "endColumn": 52,
+                    "endOffset": 521
+                },
+                "from": {
+                    "file": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 52,
+                        "endOffset": 208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 526,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 812
+                },
+                "from": {
+                    "file": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 817,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 972
+                },
+                "from": {
+                    "file": "D:\\Documents\\GeekBrains\\A2_Lesson01_01\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 16,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endLine": 12,
+                        "endColumn": 16,
+                        "endOffset": 399
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 252,
+                    "endLine": 13,
+                    "endColumn": 19,
+                    "endOffset": 497
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 502,
+                    "endColumn": 57,
+                    "endOffset": 555
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 560,
+                    "endColumn": 55,
+                    "endOffset": 611
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 616,
+                    "endColumn": 52,
+                    "endOffset": 664
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 669,
+                    "endColumn": 39,
+                    "endOffset": 704
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 709,
+                    "endColumn": 52,
+                    "endOffset": 757
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 762,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 840
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 845,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 912
+                },
+                "from": {
+                    "file": "C:\\android_repo\\A2L1Hometask\\A2_Lesson01_01\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]
